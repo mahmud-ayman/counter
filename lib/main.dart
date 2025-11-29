@@ -54,15 +54,15 @@ class _PointCounterState extends State<PointCounter> {
                           ),
                         ),
                         SizedBox(
-                          height: 180, // المساحة اللي الرقم هيظهر فيها
+                          height: 180, 
                           width: 100,
                           child: FittedBox(
-                            fit: BoxFit.scaleDown, // بيصغّر النص لما الرقم يكبر
+                            fit: BoxFit.scaleDown, 
                             child: Text(
                               "$team1Points",
                               style: TextStyle(
                                 fontSize:
-                                    200, // الحجم الأساسي (هيتصغر تلقائيًا لو الرقم طويل)
+                                    200, 
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
